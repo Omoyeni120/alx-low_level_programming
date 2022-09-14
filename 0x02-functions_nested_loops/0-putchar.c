@@ -1,39 +1,21 @@
-#include <unistd.h>
-
-
+#include "main.h"
 
 /**
+ * main - print putchar
+ * Return: always 0
+ */
 
-*print_alphabet_x10 -> prints the lowercase alphabets
-
-*/
-
-
-
-void print_alphabet_10x10(void)
-
+int main(void)
 {
-
-	int j;
-
-	int x;
-
-	
-
-	for (x = 0; x < 10; x++)
-
-	{
-
-	for (j = 'a'; j <= 'z'; j++)
-
-	{
-
-		_putchar(j);
-
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
-	}
-
+	return(0);
 }
