@@ -40,3 +40,4 @@ char*infinite_add(char*n1, char*n2, int size_r);
 
 char*add_strings(char*n1, char*n2, int r_index);                                                       
 
+#endif /*MAIN_H*/
